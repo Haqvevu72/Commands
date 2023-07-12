@@ -10,9 +10,10 @@
              <ResourceDictionary Source="ResourcesDictionaries/LabelResource.xaml"></ResourceDictionary>
              <ResourceDictionary Source="ResourcesDictionaries/TBoxResource.xaml"></ResourceDictionary>
              <ResourceDictionary Source="ResourcesDictionaries/CBoxResource.xaml"></ResourceDictionary>
-             <ResourceDictionary Source="ResourcesDictionaries/ButtonResource.xaml"></ResourceDictionary>   
-            
-            
+             <ResourceDictionary Source="ResourcesDictionaries/ButtonResource.xaml"></ResourceDictionary>
+             <ResourceDictionary Source="ResourcesDictionaries/LabelResource2.xaml"></ResourceDictionary>
+             <ResourceDictionary Source="ResourcesDictionaries/TBlockResource.xaml"></ResourceDictionary>
+             <ResourceDictionary Source="ResourcesDictionaries/GridResource.xaml"></ResourceDictionary>
             
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>

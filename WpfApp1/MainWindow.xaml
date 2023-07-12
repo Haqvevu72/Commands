@@ -6,8 +6,7 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="370" ResizeMode="NoResize">
-    <Grid>
-
+    <Grid Style="{DynamicResource grid_design}">
         <StackPanel>
             <Label Style="{DynamicResource label_design}">First Number</Label>
             <TextBox Style="{DynamicResource tbox_design}"></TextBox>
@@ -16,6 +15,10 @@
             <Label Style="{DynamicResource label_design}">Operator</Label>
             <ComboBox Style="{DynamicResource cbox_design}"></ComboBox>
             <Button Style="{DynamicResource button_design}">Calculate</Button>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label  Style="{DynamicResource label_design_2}">Result:</Label>
+            <TextBlock Style="{DynamicResource tblock_design}"></TextBlock>
         </StackPanel>
     </Grid>
 </Window>
