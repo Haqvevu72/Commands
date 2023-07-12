@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp1.View.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.View"
+        mc:Ignorable="d"
+        Title="MainView" Height="450" Width="370" ResizeMode="NoResize">
+    <Grid>
+        <Grid Style="{DynamicResource grid_design}">
+            <StackPanel>
+                <Label Style="{DynamicResource label_design}">First Number</Label>
+                <TextBox Name="first_number" Style="{DynamicResource tbox_design}"></TextBox>
+                <Label Style="{DynamicResource label_design}">Secon Number</Label>
+                <TextBox  Name="second_number" Style="{DynamicResource tbox_design}"></TextBox>
+                <Label Style="{DynamicResource label_design}">Operator</Label>
+                <ComboBox Name="_operator" Style="{DynamicResource cbox_design}"></ComboBox>
+                <Button Style="{DynamicResource button_design}" Command="{Binding _calculate}">Calculate</Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="30,70,0,0" Height="40">
+                <Label  Style="{DynamicResource label_design_2}">Result:</Label>
+                <TextBlock Name="_result" Style="{DynamicResource tblock_design}"></TextBlock>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
